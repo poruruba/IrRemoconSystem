@@ -4,7 +4,7 @@ const HELPER_BASE = process.env.HELPER_BASE || "/opt/";
 const Response = require(HELPER_BASE + 'response');
 const Redirect = require(HELPER_BASE + 'redirect');
 
-const SWITCHBOT_OPENTOKEN = "ÅySwitchBotÇÃÉgÅ[ÉNÉìÅz";
+const SWITCHBOT_OPENTOKEN = "„ÄêSwitchBot„ÅÆ„Éà„Éº„ÇØ„É≥„Äë";
 const SwitchBot = require('./switchbot');
 const switchbot = new SwitchBot(SWITCHBOT_OPENTOKEN);
 const jsonfile = require(HELPER_BASE + 'jsonfile-utils');
